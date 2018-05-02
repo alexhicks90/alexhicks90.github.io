@@ -2,51 +2,76 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-dark">
     <div id="banner" class="jumbotron">
         <div class="container">
-            <h2>Alex Hicks' GitHub Pages</h2>
+            <h2 class="display-3 text-center">Alex Hicks' GitHub Pages</h2>
         </div>
     </div>
 
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">Pure JavaScript</h3>
-        </div>
-        <div class="panel-body">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <a href="./Minesweeper"><h3 class="panel-title">Minesweeper</h3></a>
+    <div class="container text-white mb-5">
+
+        <div class="container">
+            <div class="card border-warning bg-dark text-warning mt-5">
+                <div class="card-body bg-warning text-dark">
+                    <h5 class="card-title display-4">Pure JavaScript</h5>
+                    <p class="card-text"></p>
                 </div>
-                <div class="panel-body">
-                    <p>Simple Recreation of classic Minesweeper.</p>
+                <div class="container mt-3">
+                    <div class="card border-warning bg-dark text-warning mb-3">
+                        <div class="card-header bg-warning"><h5><a class="text-dark" href="./Minesweeper">Minesweeper</a></h5></div>
+                        <div class="card-body">              
+                            <p class="card-text">Simple Recreation of classic Minesweeper.</p>
+                        </div>
+                    </div>
+                    <div class="card border-warning bg-dark text-warning mb-3">
+                        <div class="card-header bg-warning"><h5><a class="text-dark" href="./Tic-Tac-Toe">Tic-Tac-Toe</a></h5></div>
+                        <div class="card-body"> 
+                            <p class="card-text">Simple Tic tac toe DOM manipulation game.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <a href="./Tic-Tac-Toe"><h3 class="panel-title">Tic-Tac-Toe</h3></a>
+        </div>
+
+
+        <div class="container">
+            <div class="card border-success bg-dark text-success mt-5">
+                <div class="card-body bg-success text-dark">
+                    <h5 class="card-title display-4">JQuery</h5>
+                    <p class="card-text"></p>
                 </div>
-                <div class="panel-body">
-                    <p>Simple Tic tac toe DOM manipulation game.</p>
+                <div class="container">
+                    <div class="card border-success bg-dark text-success mb-3 mt-3">
+                        <div class="card-header bg-success"><h5><a class="text-dark" href="./civRandomizer">Civilization VI Randomizer</a></h5></div>
+                        <div class="card-body"> 
+                            <h4 class="card-text">Application for providing randomized civilizations to players of <a href="https://civilization.com/" target="_blank">Sid Meier's Civilization VI</a>.</h4>
+                            <p class="card-text">Also provides all information for any chosen civilization with a single click. User has full control over which civilizations are elible/banned.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card border-info bg-dark text-info mt-5">
+                <div class="card-body bg-info text-dark">
+                  <h5 class="card-title display-4">JQuery Mobile</h5>
+                  <p class="card-text">All apps optimized for 375 x 667 Landscape</p>
+                </div>
+                <ul class="list-group text-info">
+                    <li class="list-group-item bg-dark text-info"><h5><a class="text-info" href="./JQM-BookApp">Book App</a></h5></li>
+                    <li class="list-group-item bg-dark text-info"><h5><a class="text-info" href="./JQM-WeatherApp">Weather App</a></h5></li>
+                    <li class="list-group-item bg-dark text-info"><h5><a class="text-info" href="./JQM-HospitalApp">Final Assignment (Hospital App)</a></h5></li>
+                </ul> 
             </div>
         </div>
     </div>
 
-    <div class="panel panel-success">
-        <div class="panel-heading">
-            <h3 class="panel-title">JQuery Mobile - All apps optimized for 375 x 667 Landscape</h3>
-        </div>
-        <div class="panel-body">
-            <!-- List group -->
-            <ul class="list-group">
-                <li class="list-group-item"><a href="./JQM-BookApp">Book App</a></li>
-                <li class="list-group-item"><a href="./JQM-WeatherApp">Weather App</a></li>
-                <li class="list-group-item"><a href="./JQM-HospitalApp">Final Assignment (Hospital App)</a></li>
-            </ul>  
-        </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
